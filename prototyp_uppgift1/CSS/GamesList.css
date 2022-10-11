@@ -1,0 +1,40 @@
+
+
+.GamesList
+{
+    width: 100%;
+
+    background-color: #121212;
+
+    box-shadow: 0 0 20px #000000aa;
+
+    padding: 50px 0;
+}
+
+.GamesList > .Content
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    padding: 0 40px;
+}
+
+.GamesList > .Content > .GameCard
+{
+    color: #c9c9c9;
+
+    margin: 15px 27px;
+}
+
+.GamesList > p
+{
+    font-size: 28px;
+
+    color: #ffffff;
+
+    font-weight: 600;
+
+    margin-left: 5vw;
+}
